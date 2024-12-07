@@ -3,6 +3,7 @@
 // after further investigation can't use things like @include must
 // pre-load all the files you to include. Essentially build a virtual filesystem within opengl
 //TODO: Figure out how to do the extension, will link the webpage in about me.
+// link to GL_ARB: https://registry.khronos.org/OpenGL/extensions/ARB/
 #version 450
 #extension GL_ARB_shading_language_include : #include <RayStructure.glsl>
 #include <WebGPU/RayStructure.glsl>
