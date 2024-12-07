@@ -10,6 +10,7 @@ layout(set = 0, binding = 1) buffer CellState {
 };
 
 void main() {
+
     uint instance = gl_InstanceIndex;
     vec2 cell = vec2(float(instance) % grid.x, floor(float(instance) / grid.x));
 

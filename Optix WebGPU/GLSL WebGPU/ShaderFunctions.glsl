@@ -95,7 +95,6 @@ vec3 traceRay(Ray ray, int depth) {
         // return teh computed lighting at the intersection
         return computeLight(hit, viewDir);
     }
-
     // if no intersection is found just return the backgorund color
     //TODO: Figure out how value of the background color, may need to be a variable
     return vec3(0.0);
